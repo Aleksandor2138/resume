@@ -3,11 +3,19 @@
 .projects {
     margin-bottom: 50px;
 }
+.projects__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: var(--text-color-black);
+    margin-bottom: 10px;
+}
 .projects__list {
     padding: 0 0 0 17px;
 }
 .projects__item {
-    color: #000000;
+    color: var(--text-color-black);
     font-weight: bold;
 }
 .projects__text {
@@ -15,7 +23,7 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;
+    color: var(--text-color-grey);
     margin-left: 5px;
 }
 .projects__link {
@@ -23,10 +31,11 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;
+    color: var(--text-color-grey);
     text-decoration:none;
-    &:hover{
-        color: #000000; 
+    &:hover,
+    &:focus{
+        color:  var(--text-color-black);
     }
 }
 .projects__bracket {
@@ -34,5 +43,5 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 24px;
-    color: #000000;
+    color: var(--text-color-black);
 }

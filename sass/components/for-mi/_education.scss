@@ -5,15 +5,23 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
-    color: #000;
-    margin-bottom: 10px;
+    color: var(--text-color-black);
+    margin-bottom: 15px;
+}
+.education-list {
+    display: flex;
+    flex-direction: column;
+}
+.education__item{
+    &:not(:last-child) {
+        margin-bottom: 15px;}
 }
 .education__university {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    color: #FB6D3A;
+    color: var(--text-color-ginger);
     margin-bottom: 10px;
 }
 .education__speciality {
@@ -21,7 +29,7 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-    color: #000000;
+    color: var(--text-color-black);
     margin-bottom: 10px;
 }
 .education__period {
@@ -29,8 +37,8 @@
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
-    color: #A8A8A8;
+    color: var(--text-color-light-gray);
 }
 .education__divider {
-    color: #000;
+    color: var(--text-color-black);
 }

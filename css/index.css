@@ -3,12 +3,6 @@ body {
   background-color: #f5f7fa;
 }
 
-:root {
-  --section-color-footer: #2f303a;
-  --section-color-white: #ffffff;
-  --section-color-grey: #f8f9f9;
-}
-
 img {
   display: block;
 }
@@ -41,11 +35,21 @@ button {
   list-style: none;
 }
 
+:root {
+  --text-color-black: #000000;
+  --text-color-grey: #595959;
+  --text-color-light-gray: #A8A8A8;
+  --text-color-ginger: #FB6D3A;
+  --text-color-white: #ffffff;
+  --section-color:#1e2939;
+  --section-color-white: #ffffff;
+}
+
 .main-container {
   display: flex;
   flex-direction: row-reverse;
   width: 1200px;
-  background: #fff;
+  background: var(--section-color-white);
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
@@ -53,15 +57,6 @@ button {
 .for-mi {
   padding: 100px 90px;
   width: calc 830px;
-}
-
-.for-mi-title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 27px;
-  color: #000;
-  margin-bottom: 10px;
 }
 
 /*about-me*/
@@ -74,8 +69,8 @@ button {
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
-  color: #000;
-  margin: 0 0 20px 0;
+  color: var(--text-color-black);
+  margin-bottom: 20px;
 }
 
 .about__name {
@@ -83,8 +78,8 @@ button {
   font-weight: bold;
   font-size: 45px;
   line-height: 55px;
-  color: #000;
-  margin: 0 0 25px 0;
+  color: var(--text-color-black);
+  margin-bottom: 25px;
 }
 
 .about__discription {
@@ -92,8 +87,9 @@ button {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
-  width: 400px;
+  color: var(--text-color-grey);
+  text-align: justify;
+  width: 450px;
 }
 
 /*my-projects*/
@@ -101,12 +97,21 @@ button {
   margin-bottom: 50px;
 }
 
+.projects__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: var(--text-color-black);
+  margin-bottom: 10px;
+}
+
 .projects__list {
   padding: 0 0 0 17px;
 }
 
 .projects__item {
-  color: #000000;
+  color: var(--text-color-black);
   font-weight: bold;
 }
 
@@ -115,7 +120,7 @@ button {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: var(--text-color-grey);
   margin-left: 5px;
 }
 
@@ -124,11 +129,11 @@ button {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: var(--text-color-grey);
   text-decoration: none;
 }
-.projects__link:hover {
-  color: #000000;
+.projects__link:hover, .projects__link:focus {
+  color: var(--text-color-black);
 }
 
 .projects__bracket {
@@ -136,10 +141,19 @@ button {
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
-  color: #000000;
+  color: var(--text-color-black);
 }
 
 /*work*/
+.work-expiriens-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: var(--text-color-black);
+  margin-bottom: 10px;
+}
+
 .work-expiriens-company {
   margin: 0 0 15px 0;
 }
@@ -153,7 +167,7 @@ button {
 }
 
 .work-expiriens__position--color {
-  color: #FB6D3A;
+  color: var(--text-color-ginger);
 }
 
 .work-expiriens__period {
@@ -161,12 +175,12 @@ button {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #A8A8A8;
+  color: var(--text-color-light-gray);
   margin: 0 0 10px 0;
 }
 
 .work-expiriens__period--color {
-  color: #000;
+  color: var(--text-color-black);
 }
 
 .work-expiriens__list {
@@ -178,7 +192,7 @@ button {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: var(--text-color-gray);
 }
 
 /*education*/
@@ -187,8 +201,17 @@ button {
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
-  color: #000;
-  margin-bottom: 10px;
+  color: var(--text-color-black);
+  margin-bottom: 15px;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.education__item:not(:last-child) {
+  margin-bottom: 15px;
 }
 
 .education__university {
@@ -196,7 +219,7 @@ button {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  color: #FB6D3A;
+  color: var(--text-color-ginger);
   margin-bottom: 10px;
 }
 
@@ -205,7 +228,7 @@ button {
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
-  color: #000000;
+  color: var(--text-color-black);
   margin-bottom: 10px;
 }
 
@@ -214,16 +237,16 @@ button {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #A8A8A8;
+  color: var(--text-color-light-gray);
 }
 
 .education__divider {
-  color: #000;
+  color: var(--text-color-black);
 }
 
 /*sidebar*/
 .sidebar {
-  background: #1e2939;
+  background: var(--section-color);
   width: 370px;
   padding: 40px 0;
 }
@@ -233,7 +256,7 @@ button {
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
-  color: #fff;
+  color: var(--text-color-white);
   margin-bottom: 10px;
 }
 
@@ -247,7 +270,7 @@ button {
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
-  color: #fff;
+  color: var(--text-color-white);
   margin-right: 7px;
 }
 
@@ -259,7 +282,7 @@ button {
   color: #565F6B;
 }
 .contact__link:hover, .contact__link:focus {
-  color: #ffffff;
+  color: var(--text-color-white);
 }
 
 /*skil*/
@@ -278,7 +301,7 @@ button {
 
 .soft-skil__item,
 .tech-skil__item {
-  color: #FB6D3A;
+  color: var(--text-color-ginger);
 }
 
 .soft-skil__item--text,
@@ -287,5 +310,5 @@ button {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #fff;
+  color: var(--text-color-white);
 }/*# sourceMappingURL=index.css.map */

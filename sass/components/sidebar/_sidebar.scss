@@ -1,7 +1,7 @@
 /*sidebar*/
 
 .sidebar {
-    background: #1e2939;
+    background: var(--section-color);
     width: 370px;
     padding: 40px 0; 
 }
@@ -10,6 +10,6 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
-    color: #fff;
+    color: var(--text-color-white);
     margin-bottom: 10px;
 }
