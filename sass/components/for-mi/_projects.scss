@@ -33,6 +33,9 @@
     line-height: 24px;
     color: var(--text-color-grey);
     text-decoration:none;
+    transition-duration: 350ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transform: scale(0.85);    
     &:hover,
     &:focus{
         color:  var(--text-color-black);
