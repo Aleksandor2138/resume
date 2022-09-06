@@ -1,6 +1,7 @@
 .main-container {
     display: flex;
     flex-direction: row-reverse;
+    position: relative;
     width: 1200px;
     background: var(--section-color-white);
     margin: 40px auto;
