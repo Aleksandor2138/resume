@@ -40,7 +40,7 @@ button {
   --text-color-grey: #595959;
   --text-color-light-gray: #A8A8A8;
   --text-color-ginger: #FB6D3A;
-  --text-color-white-ransparent: #ffffff83;
+  --text-color-white-ransparent: #ffffffab;
   --text-color-white: #ffffff;
   --section-color:#1e2939;
   --section-color-white: #ffffff;
@@ -81,12 +81,11 @@ button {
   position: relative;
   width: 1200px;
   background: var(--section-color-white);
-  margin: 40px auto;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
 }
 
 .for-mi {
-  padding: 100px 90px;
+  padding: 100px 50px;
   width: calc 830px;
 }
 
@@ -94,29 +93,26 @@ button {
 .about {
   margin-bottom: 40px;
 }
-
 .about__profession {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 17px;
   color: var(--text-color-black);
   margin-bottom: 20px;
 }
-
 .about__name {
   font-style: normal;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 47px;
   line-height: 55px;
   color: var(--text-color-black);
   margin-bottom: 25px;
 }
-
 .about__discription {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: var(--text-color-grey);
   text-align: justify;
@@ -124,12 +120,12 @@ button {
 
 /*my-projects*/
 .projects {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .projects__title {
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 27px;
   color: var(--text-color-black);
   margin-bottom: 10px;
@@ -140,22 +136,24 @@ button {
 .projects__item {
   color: var(--text-color-black);
   font-weight: bold;
+  margin-bottom: 5px;
 }
 .projects__text {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: var(--text-color-grey);
-  margin-left: 5px;
+  margin-left: 10px;
 }
 .projects__link {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: var(--text-color-grey);
   text-decoration: none;
+  margin-bottom: 5px;
   transition-duration: 350ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transform: scale(0.85);
@@ -166,7 +164,7 @@ button {
 .projects__bracket {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: var(--text-color-black);
 }
@@ -178,49 +176,42 @@ button {
 .work-expiriens-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 27px;
   color: var(--text-color-black);
   margin-bottom: 10px;
 }
-
 .work-expiriens-company {
   margin: 0 0 15px 0;
 }
-
 .work-expiriens__position {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
   margin: 0 0 10px 0;
 }
-
 .work-expiriens__position--color {
   color: var(--text-color-ginger);
 }
-
 .work-expiriens__period {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   color: var(--text-color-light-gray);
   margin: 0 0 10px 0;
 }
-
 .work-expiriens__period--color {
   color: var(--text-color-black);
 }
-
 .work-expiriens__list {
   padding: 0 0 0 17px;
 }
-
 .work-expiriens__item {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: var(--text-color-gray);
 }
@@ -233,47 +224,41 @@ button {
 .education-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 27px;
   color: var(--text-color-black);
   margin-bottom: 15px;
 }
-
 .education-list {
   display: flex;
   flex-direction: column;
 }
-
 .education__item:not(:last-child) {
   margin-bottom: 15px;
 }
-
 .education__university {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
   color: var(--text-color-ginger);
   margin-bottom: 10px;
 }
-
 .education__speciality {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 17px;
   color: var(--text-color-black);
   margin-bottom: 10px;
 }
-
 .education__period {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   color: var(--text-color-light-gray);
 }
-
 .education__divider {
   color: var(--text-color-black);
 }
@@ -314,15 +299,18 @@ button {
 .sidebar-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 27px;
   color: var(--text-color-white);
   margin-bottom: 10px;
 }
 
 .photo {
+  width: 370px;
+  height: 354px;
   margin: 0 auto;
   border-radius: 50%;
+  background-color: #667899;
   transition-property: all;
   transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -341,7 +329,7 @@ button {
 .contact__tipe {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: var(--text-color-white);
   margin-right: 7px;
@@ -349,7 +337,7 @@ button {
 .contact__link {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: var(--text-color-white-ransparent);
   transition-duration: 350ms;
@@ -362,7 +350,7 @@ button {
 .contact__p {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: var(--text-color-white);
 }
@@ -394,7 +382,7 @@ button {
 .tech-skil__item--text {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: var(--text-color-white);
 }
@@ -413,7 +401,7 @@ button {
 .language__item--text {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: var(--text-color-white);
 }/*# sourceMappingURL=index.css.map */

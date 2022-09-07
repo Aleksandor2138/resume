@@ -1,8 +1,9 @@
 .photo{
-    // width: calc(354px - 10%);
-    // height: calc(370px - 10%);
+    width: 370px;
+    height: 354px;
     margin: 0 auto;
     border-radius: 50%;
+    background-color: #667899;
     transition-property: all;
     transition-duration: 500ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

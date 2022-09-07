@@ -1,46 +1,47 @@
 /*education*/
-
-.education-title{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 27px;
-    color: var(--text-color-black);
-    margin-bottom: 15px;
-}
-.education-list {
-    display: flex;
-    flex-direction: column;
-}
-.education__item{
-    &:not(:last-child) {
-        margin-bottom: 15px;}
-}
-.education__university {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    color: var(--text-color-ginger);
-    margin-bottom: 10px;
-}
-.education__speciality {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
-    color: var(--text-color-black);
-    margin-bottom: 10px;
-}
-.education__period {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
-    color: var(--text-color-light-gray);
-}
-.education__divider {
-    color: var(--text-color-black);
+.education {
+    &-title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 27px;
+        color: var(--text-color-black);
+        margin-bottom: 15px;
+    }
+    &-list {
+        display: flex;
+        flex-direction: column;
+    }
+    &__item{
+        &:not(:last-child) {
+            margin-bottom: 15px;}
+    }
+    &__university {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+        color: var(--text-color-ginger);
+        margin-bottom: 10px;
+    }
+    &__speciality {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 17px;
+        color: var(--text-color-black);
+        margin-bottom: 10px;
+    }
+    &__period {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 15px;
+        color: var(--text-color-light-gray);
+    }
+    &__divider {
+        color: var(--text-color-black);
+    }
 }
 .go{
     background: #373740;
@@ -49,12 +50,12 @@
     margin-right: 8px;
     &::after{
         content: ''; 
-    position: absolute; 
-    left: 100%; 
-    bottom: 0; 
-    border: 10px solid transparent; 
-    border: 10px solid transparent; 
-    border-left: 7px solid #373740;
+        position: absolute; 
+        left: 100%; 
+        bottom: 0; 
+        border: 10px solid transparent; 
+        border: 10px solid transparent; 
+        border-left: 7px solid #373740;
     }
     
 }

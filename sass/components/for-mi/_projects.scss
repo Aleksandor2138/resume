@@ -1,11 +1,11 @@
 /*my-projects*/
 
 .projects {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     &__title {
         font-style: normal;
         font-weight: bold;
-        font-size: 22px;
+        font-size: 24px;
         line-height: 27px;
         color: var(--text-color-black);
         margin-bottom: 10px;
@@ -16,22 +16,24 @@
     &__item {
         color: var(--text-color-black);
         font-weight: bold;
+        margin-bottom: 5px;
     }
     &__text {
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 24px;
         color: var(--text-color-grey);
-        margin-left: 5px;
+        margin-left: 10px;
     }
     &__link {
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 24px;
         color: var(--text-color-grey);
         text-decoration:none;
+        margin-bottom: 5px;
         transition-duration: 350ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transform: scale(0.85);    
@@ -43,7 +45,7 @@
     &__bracket {
         font-style: normal;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 24px;
         color: var(--text-color-black);
     }
