@@ -47,15 +47,14 @@
     background: #373740;
     color: var(--text-color-white);
     position: relative;
-    margin-right: 8px;
+    margin-right: 10px;
     &::after{
         content: ''; 
         position: absolute; 
         left: 100%; 
         bottom: 0; 
-        border: 10px solid transparent; 
-        border: 10px solid transparent; 
-        border-left: 7px solid #373740;
+        border: 11px solid transparent; 
+        border-left: 10px solid #373740;
     }
     
 }

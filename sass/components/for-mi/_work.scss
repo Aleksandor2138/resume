@@ -1,5 +1,6 @@
 /*work*/
 .work-expiriens{
+    margin-bottom: 25px;
     &-title {
         font-style: normal;
         font-weight: bold;
@@ -44,5 +45,6 @@
     }
 }
 .details__more{
-    margin-bottom: 15px;
+    // margin-bottom: 15px;
+    cursor: pointer;
 }

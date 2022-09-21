@@ -85,13 +85,13 @@ button {
 }
 
 .for-mi {
-  padding: 100px 50px;
+  padding: 60px 50px 50px;
   width: calc 830px;
 }
 
 /*about-me*/
 .about {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 .about__profession {
   font-style: normal;
@@ -120,7 +120,7 @@ button {
 
 /*my-projects*/
 .projects {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 .projects__title {
   font-style: normal;
@@ -173,6 +173,9 @@ button {
 }
 
 /*work*/
+.work-expiriens {
+  margin-bottom: 25px;
+}
 .work-expiriens-title {
   font-style: normal;
   font-weight: bold;
@@ -217,7 +220,7 @@ button {
 }
 
 .details__more {
-  margin-bottom: 15px;
+  cursor: pointer;
 }
 
 /*education*/
@@ -267,16 +270,15 @@ button {
   background: #373740;
   color: var(--text-color-white);
   position: relative;
-  margin-right: 8px;
+  margin-right: 10px;
 }
 .go::after {
   content: "";
   position: absolute;
   left: 100%;
   bottom: 0;
-  border: 10px solid transparent;
-  border: 10px solid transparent;
-  border-left: 7px solid #373740;
+  border: 11px solid transparent;
+  border-left: 10px solid #373740;
 }
 
 .it {
@@ -317,7 +319,7 @@ button {
   transform: scale(0.85);
 }
 .photo:hover {
-  transform: scale(1.15);
+  transform: scale(1.05);
 }
 
 /* contact */
