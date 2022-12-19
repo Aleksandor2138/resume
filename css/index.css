@@ -113,7 +113,7 @@ button {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.15;
   color: var(--text-color-grey);
   text-align: justify;
 }
@@ -142,31 +142,40 @@ button {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.15;
   color: var(--text-color-grey);
   margin-left: 10px;
 }
-.projects__link {
+.projects__text--top {
+  margin-bottom: 5px;
+  display: flex;
+  gap: 5px;
+  align-items: stretch;
+}
+.projects__text--title {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.15;
   color: var(--text-color-grey);
-  text-decoration: none;
-  margin-bottom: 5px;
-  transition-duration: 350ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transform: scale(0.85);
 }
-.projects__link:hover, .projects__link:focus {
-  color: var(--text-color-black);
+.projects__icon {
+  width: 25px;
+  height: 25px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.projects__icon:hover, .projects__icon:focus {
+  transform: scale(1.15);
+}
+.projects__link {
+  text-decoration: none;
 }
 .projects__bracket {
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 16px;
-  line-height: 24px;
-  color: var(--text-color-black);
+  line-height: 1.15;
+  color: var(--text-color-grey);
 }
 .projects__p {
   text-align: justify;
@@ -202,7 +211,7 @@ button {
   font-weight: normal;
   font-size: 14px;
   line-height: 15px;
-  color: var(--text-color-light-gray);
+  color: var(--text-color-gray);
   margin: 0 0 10px 0;
 }
 .work-expiriens__period--color {
@@ -215,7 +224,7 @@ button {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.15;
   color: var(--text-color-gray);
 }
 
@@ -260,7 +269,7 @@ button {
   font-weight: normal;
   font-size: 14px;
   line-height: 15px;
-  color: var(--text-color-light-gray);
+  color: var(--text-color-gray);
 }
 .education__divider {
   color: var(--text-color-black);
@@ -322,7 +331,7 @@ button {
   transform: scale(0.85);
 }
 .photo:hover {
-  transform: scale(1.05);
+  transform: scale(0.95);
 }
 
 /* contact */
