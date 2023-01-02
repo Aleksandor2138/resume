@@ -8,16 +8,16 @@
     &__tipe {
         font-style: normal;
         font-weight: bold;
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 17px;
+        line-height: 1.5;
         color: var(--text-color-white);
         margin-right: 7px;
     }
     &__link{ 
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 17px;
+        line-height: 1.5;
         color: var(--text-color-white-ransparent);
         transition-duration: 350ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -30,8 +30,8 @@
     &__p{
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 17px;
+        line-height: 1.5;
         color: var(--text-color-white);
     }
 }

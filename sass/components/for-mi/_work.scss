@@ -1,6 +1,6 @@
 /*work*/
 .work-expiriens{
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     &-title {
         font-style: normal;
         font-weight: bold;
@@ -25,7 +25,7 @@
     &__period {
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 15px;
         color: var(--text-color-gray);
         margin: 0 0 10px 0;
@@ -39,7 +39,7 @@
     &__item{
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 17px;
         line-height: 1.15;
         color: var(--text-color-gray);
     }
@@ -47,4 +47,9 @@
 .details__more{
     // margin-bottom: 15px;
     cursor: pointer;
+    font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 1.15;
+        color: var(--text-color-gray);
 }

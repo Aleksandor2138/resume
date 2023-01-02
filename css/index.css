@@ -50,7 +50,7 @@ button {
   display: flex;
   align-items: center;
   position: absolute;
-  top: 30px;
+  top: 20px;
   right: 20px;
 }
 .header__p {
@@ -85,13 +85,13 @@ button {
 }
 
 .for-mi {
-  padding: 60px 50px 50px;
+  padding: 50px;
   width: calc 830px;
 }
 
 /*about-me*/
 .about {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .about__profession {
   font-style: normal;
@@ -99,7 +99,7 @@ button {
   font-size: 16px;
   line-height: 17px;
   color: var(--text-color-black);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .about__name {
   font-style: normal;
@@ -107,12 +107,12 @@ button {
   font-size: 47px;
   line-height: 55px;
   color: var(--text-color-black);
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .about__discription {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.15;
   color: var(--text-color-grey);
   text-align: justify;
@@ -120,7 +120,7 @@ button {
 
 /*my-projects*/
 .projects {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .projects__title {
   font-style: normal;
@@ -141,7 +141,7 @@ button {
 .projects__text {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.15;
   color: var(--text-color-grey);
   margin-left: 10px;
@@ -155,7 +155,7 @@ button {
 .projects__text--title {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.15;
   color: var(--text-color-grey);
 }
@@ -173,7 +173,7 @@ button {
 .projects__bracket {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.15;
   color: var(--text-color-grey);
 }
@@ -183,7 +183,7 @@ button {
 
 /*work*/
 .work-expiriens {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .work-expiriens-title {
   font-style: normal;
@@ -209,7 +209,7 @@ button {
 .work-expiriens__period {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 15px;
   color: var(--text-color-gray);
   margin: 0 0 10px 0;
@@ -223,13 +223,18 @@ button {
 .work-expiriens__item {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.15;
   color: var(--text-color-gray);
 }
 
 .details__more {
   cursor: pointer;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 1.15;
+  color: var(--text-color-gray);
 }
 
 /*education*/
@@ -239,14 +244,14 @@ button {
   font-size: 24px;
   line-height: 27px;
   color: var(--text-color-black);
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .education-list {
   display: flex;
   flex-direction: column;
 }
 .education__item:not(:last-child) {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .education__university {
   font-style: normal;
@@ -267,7 +272,7 @@ button {
 .education__period {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 15px;
   color: var(--text-color-gray);
 }
@@ -314,7 +319,7 @@ button {
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
-  line-height: 27px;
+  line-height: 1.13;
   color: var(--text-color-white);
   margin-bottom: 10px;
 }
@@ -343,16 +348,16 @@ button {
 .contact__tipe {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 17px;
+  line-height: 1.5;
   color: var(--text-color-white);
   margin-right: 7px;
 }
 .contact__link {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 17px;
+  line-height: 1.5;
   color: var(--text-color-white-ransparent);
   transition-duration: 350ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -364,8 +369,8 @@ button {
 .contact__p {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 17px;
+  line-height: 1.5;
   color: var(--text-color-white);
 }
 
@@ -396,8 +401,8 @@ button {
 .tech-skil__item--text {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 17px;
+  line-height: 1.5;
   color: var(--text-color-white);
 }
 
@@ -415,7 +420,7 @@ button {
 .language__item--text {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 17px;
+  line-height: 1.5;
   color: var(--text-color-white);
 }/*# sourceMappingURL=index.css.map */
