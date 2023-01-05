@@ -79,14 +79,14 @@ button {
   display: flex;
   flex-direction: row-reverse;
   position: relative;
-  width: 1240px;
+  width: 1200px;
   background: var(--section-color-white);
   margin: 0 auto;
 }
 
 .for-mi {
-  padding: 50px;
-  width: calc 870px;
+  padding: 50px 50px 30px 30px;
+  width: calc 830px;
 }
 
 /*about-me*/
@@ -97,7 +97,7 @@ button {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 17px;
+  line-height: 1.15;
   color: var(--text-color-black);
   margin-bottom: 10px;
 }
@@ -105,9 +105,8 @@ button {
   font-style: normal;
   font-weight: bold;
   font-size: 47px;
-  line-height: 55px;
+  line-height: 1.15;
   color: var(--text-color-black);
-  margin-bottom: 20px;
 }
 .about__discription {
   font-style: normal;
