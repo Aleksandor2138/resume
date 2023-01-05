@@ -79,14 +79,14 @@ button {
   display: flex;
   flex-direction: row-reverse;
   position: relative;
-  width: 1200px;
+  width: 1240px;
   background: var(--section-color-white);
   margin: 0 auto;
 }
 
 .for-mi {
   padding: 50px;
-  width: calc 830px;
+  width: calc 870px;
 }
 
 /*about-me*/
